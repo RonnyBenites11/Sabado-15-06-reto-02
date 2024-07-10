@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.ndex.css">
 </head>
 <body>
     <header>
-        <h1 class="title-principal">Tienda <span> Muebles </span></h1>
-        <div>
-            <nav class="contenedor">
+        <h1 class="titulo-principal">Tienda <span> Muebles </span></h1>
+
+        <div class="contenedor-navegacion">
+            <nav class="contenedor" >
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="nosotros.html">Nosotros</a></li>
@@ -21,34 +23,34 @@
             </nav>
         </div>
     </header>
-    <main >
+    <main class="contenido-principal contenedor" >
         <h2 >Contacto</h2>
 
-        <form action="">
+        <form class="form" action="">
             <fieldset>
                 <legend>Tus Datos</legend>
 
-                <div >
+                <div class="campo">
                     <label for="nombre">Nombre: </label>
                     <input id="nombre" type="text" placeholder="Tu Nombre" required="">
                 </div>
 
-                <div>
+                <div class="campo">
                     <label for="asunto">Asunto:</label>
                     <input id="asunto" type="text" placeholder="Tu Asunto" required="">
                 </div>
 
-                <div>
+                <div class="campo">
                     <label for="email">E-mail:</label>
                     <input id="email" type="email" placeholder="Tu Email">
                 </div>
 
-                <div>
+                <div class="campo">
                     <label for="tel">Teléfono:</label>
                     <input id="tel" type="tel" placeholder="Tu Teléfono">
                 </div>
 
-                <div>
+                <div class="campo">
                     <label for="tel">Mensaje:</label>
                     <textarea rows="10" cols="20"></textarea>
                 </div>
@@ -57,7 +59,7 @@
             <fieldset>
                 <legend>País</legend>
 
-                <div>
+                <div class="campo">
                     <label for="pais">País</label>
                     <select id="pais">
                         <option value="">-- Seleccione --</option>
@@ -74,7 +76,7 @@
             <fieldset>
                 <legend>Información Extra</legend>
 
-                <div >
+                <div class="campo">
                     <label for="cliente">Cliente</label>
                     <input id="cliente" type="radio" name="tipo" value="cliente">
                 </div>
@@ -84,7 +86,7 @@
                     <input id="proveedor" type="radio" name="tipo" value="proveedor">
                 </div>
 
-                <div>
+                <div class="campo">
                     <label for="categoria">Categoría de Interés</label>
                     <input list="categorias" name="categorias">
                     <datalist id="categorias">
@@ -96,14 +98,14 @@
                     </datalist>
                 </div>
             </fieldset>
-            <button>Enviar Formulario</button>
+            <button class="btn">Enviar Formulario</button>
         </form>
     </main>
-    <footer>
-        <div class="">
-            <div>
+    <footer >
+        <div class="grid-footer contenedor">
+            <div class="footer-elemento">
                 <h3>Categorías</h3>
-                <nav class="">
+                <nav class="footer-menu">
                     <a href="#">Cocina</a>
                     <a href="#">Oficina</a>
                     <a href="#">Jardín</a>
@@ -111,9 +113,9 @@
                     <a href="#">Dormitorio</a>
                 </nav>
             </div>
-            <div>
+            <div class="footer-elemento">
                 <h3>Sobre Nosotros</h3>
-                <nav class="">
+                <nav class="footer-menu">
                     <a href="#">Nuestra Historia</a>
                     <a href="#">Misión, visión y Valores</a>
                     <a href="#">Carreras</a>
@@ -121,9 +123,9 @@
                     <a href="#">Términos del Servicio</a>
                 </nav>
             </div>
-            <div>
+            <div class="footer-elemento">
                 <h3>Soporte</h3>
-                <nav class="">
+                <nav class="footer-menu">
                     <a href="#">Preguntas Frecuentes</a>
                     <a href="#">Ayuda en línea</a>
                     <a href="#">Confianza y Seguridad</a>
@@ -131,7 +133,7 @@
             </div>
         </div>
 
-        <p class="">Todos los derechos Reservados, TiendaMuebles</p>
+        <p class="copyright">Todos los derechos Reservados, TiendaMuebles</p>
     </footer>
     
     

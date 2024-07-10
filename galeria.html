@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.ndex.css">
 </head>
 <body>
     <header>
-        <h1 class="title-principal">Tienda <span> Muebles </span></h1>
-        <div>
-            <nav class="contenedor">
+        <h1 class="titulo-principal">Tienda <span> Muebles </span></h1>
+
+        <div class="contenedor-navegacion">
+            <nav class="contenedor" >
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="nosotros.html">Nosotros</a></li>
@@ -21,10 +23,10 @@
             </nav>
         </div>
     </header>
-    <main >
+    <main class="contenido-principal contenedor" >
         <h2 >Galería</h2>
 
-        <div>
+        <div class="galeriacss">
             <div>
                     <img src="img/galeria_01.jpg" alt="imagen galeria"> 
             </div>
@@ -54,11 +56,11 @@
             </div>
         </div>
     </main>
-    <footer>
-        <div class="">
-            <div>
+    <footer >
+        <div class="grid-footer contenedor">
+            <div class="footer-elemento">
                 <h3>Categorías</h3>
-                <nav class="">
+                <nav class="footer-menu">
                     <a href="#">Cocina</a>
                     <a href="#">Oficina</a>
                     <a href="#">Jardín</a>
@@ -66,9 +68,9 @@
                     <a href="#">Dormitorio</a>
                 </nav>
             </div>
-            <div>
+            <div class="footer-elemento">
                 <h3>Sobre Nosotros</h3>
-                <nav class="">
+                <nav class="footer-menu">
                     <a href="#">Nuestra Historia</a>
                     <a href="#">Misión, visión y Valores</a>
                     <a href="#">Carreras</a>
@@ -76,9 +78,9 @@
                     <a href="#">Términos del Servicio</a>
                 </nav>
             </div>
-            <div>
+            <div class="footer-elemento">
                 <h3>Soporte</h3>
-                <nav class="">
+                <nav class="footer-menu">
                     <a href="#">Preguntas Frecuentes</a>
                     <a href="#">Ayuda en línea</a>
                     <a href="#">Confianza y Seguridad</a>
@@ -86,7 +88,7 @@
             </div>
         </div>
 
-        <p class="">Todos los derechos Reservados, TiendaMuebles</p>
+        <p class="copyright">Todos los derechos Reservados, TiendaMuebles</p>
     </footer>
     
 </body>

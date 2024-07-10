@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.ndex.css">
 </head>
 <body>
     <header>
-        <h1 class="title-principal">Tienda <span> Muebles </span></h1>
-        <div>
-            <nav class="contenedor">
+        <h1 class="titulo-principal">Tienda <span> Muebles </span></h1>
+
+        <div class="contenedor-navegacion">
+            <nav class="contenedor" >
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="nosotros.html">Nosotros</a></li>
@@ -21,24 +23,24 @@
             </nav>
         </div>
     </header>
-    <main>
+    <main class="contenido-principal contenedor">
         <h2>Nuestro Blog</h2>
-        <section >
-            <div>
-                <article>
+        <section class="contenedor-blog">
+            <div class="blog">
+                <article class="entrada">
                     <h2>Guía de Colores</h2>
 
-                    <div >
+                    <div class="imagen">
                         <img src="img/nosotros.jpg" alt="imagen blog">
                     </div>
 
-                    <div>
-                        <div>
+                    <div class="contenido-blog">
+                        <div class="entrada-meta">
                             <p>Fecha: <span>22 de Octubre de 2022</span></p>
                             <p>Escrito por: <span>TiendaMuebles</span></p>
                         </div>
 
-                        <div >
+                        <div class="entrada-blog" >
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium id
                                 numquam ducimus alias commodi eveniet, impedit amet! Quidem et tempore
@@ -53,24 +55,24 @@
                                 voluptatem numquam? In, nobis!
                             </p>
                         </div>
-                        <button>Leer</button>
+                        <button class="btn max-width-30">Leer</button>
                     </div>
                 </article>
 
-                <article>
+                <article class="entrada">
                     <h2>Guía de Colores</h2>
 
-                    <div>
+                    <div class="imagen">
                         <img src="img/nosotros.jpg" alt="imagen blog">
                     </div>
 
-                    <div >
-                        <div >
+                    <div class="contenido-blog" >
+                        <div class="entrada-meta">
                             <p>Fecha: <span>22 de Octubre de 2022</span></p>
                             <p>Escrito por: <span>TiendaMuebles</span></p>
                         </div>
 
-                        <div>
+                        <div class="entrada-blog">
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium id
                                 numquam ducimus alias commodi eveniet, impedit amet! Quidem et tempore
@@ -86,7 +88,7 @@
                             </p>
                         </div>
 
-                        <button >Leer</button>
+                        <button class="btn max-width-30" >Leer</button>
                     </div>
                 </article>
             </div>
@@ -110,11 +112,11 @@
             </aside>
         </section>
     </main>
-    <footer>
-        <div class="">
-            <div>
+    <footer >
+        <div class="grid-footer contenedor">
+            <div class="footer-elemento">
                 <h3>Categorías</h3>
-                <nav class="">
+                <nav class="footer-menu">
                     <a href="#">Cocina</a>
                     <a href="#">Oficina</a>
                     <a href="#">Jardín</a>
@@ -122,9 +124,9 @@
                     <a href="#">Dormitorio</a>
                 </nav>
             </div>
-            <div>
+            <div class="footer-elemento">
                 <h3>Sobre Nosotros</h3>
-                <nav class="">
+                <nav class="footer-menu">
                     <a href="#">Nuestra Historia</a>
                     <a href="#">Misión, visión y Valores</a>
                     <a href="#">Carreras</a>
@@ -132,9 +134,9 @@
                     <a href="#">Términos del Servicio</a>
                 </nav>
             </div>
-            <div>
+            <div class="footer-elemento">
                 <h3>Soporte</h3>
-                <nav class="">
+                <nav class="footer-menu">
                     <a href="#">Preguntas Frecuentes</a>
                     <a href="#">Ayuda en línea</a>
                     <a href="#">Confianza y Seguridad</a>
@@ -142,7 +144,7 @@
             </div>
         </div>
 
-        <p class="">Todos los derechos Reservados, TiendaMuebles</p>
+        <p class="copyright">Todos los derechos Reservados, TiendaMuebles</p>
     </footer>
     
 </body>
